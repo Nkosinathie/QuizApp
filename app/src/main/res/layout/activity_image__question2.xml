@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.quizapp1.Image_Question2">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="Whats Logo is this ?"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/facebook36"
+            android:scaleType="centerCrop"/>
+
+        <Button
+            android:id="@+id/facebook"
+            android:onClick="OnClickfcz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Facebook"
+            android:textColorLink="@android:color/holo_blue_bright" />
+        <Button
+            android:id="@+id/mxit"
+            android:onClick="OnClickmxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Mxit"
+            android:textColorLink="@android:color/holo_blue_bright" />
+        <Button
+            android:id="@+id/twitter"
+            android:onClick="OnClicktwi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Twitter"
+            android:textColorLink="@android:color/holo_blue_bright" />
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

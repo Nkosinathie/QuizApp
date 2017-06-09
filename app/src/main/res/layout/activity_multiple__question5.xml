@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.quizapp1.Multiple_Question5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="MULTIPLE CHOICE "
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:padding="30dp"
+            android:text="5. FROM WHAT COUNTRY DID THE RASTAFARI MOVEMENT ARISE"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/kenya"
+            android:onClick="onClickkey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="KENYA"
+            android:textColorLink="@android:color/holo_blue_bright" />
+        <Button
+            android:id="@+id/rwanda"
+            android:onClick="onClickrwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="RWANDA"
+            android:textColorLink="@android:color/holo_blue_bright" />
+        <Button
+            android:id="@+id/jamaica"
+            android:onClick="onClickjmc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="JAMAICA"
+            android:textColorLink="@android:color/holo_blue_bright" />
+        <Button
+            android:id="@+id/back"
+            android:onClick="onClickbck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="BACK"
+            android:textColorLink="@android:color/holo_blue_bright" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
