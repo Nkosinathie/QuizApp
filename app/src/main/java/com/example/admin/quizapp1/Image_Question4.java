@@ -31,6 +31,9 @@ public class Image_Question4 extends AppCompatActivity {
         Intent i = new Intent (Image_Question4.this,Image_Question5.class);
         startActivity(i);
 
+        MainActivity.score = MainActivity.score +1;
+        startActivity(i);
+
     }
     public void  next(View view)
     {

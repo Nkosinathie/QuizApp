@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFC7C3B3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.admin.quizapp1.True_False_Question1">
@@ -35,7 +36,7 @@
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:background="@android:color/holo_blue_bright"
+            android:background="#FF0C948F"
             android:onClick="OnClicktr"
             android:text="True"
             android:textColorLink="@android:color/holo_blue_bright" />
@@ -48,7 +49,7 @@
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:background="@android:color/holo_blue_bright"
+            android:background="#FF0C948F"
             android:text="False"
             android:textColorLink="@android:color/holo_blue_bright" />
 
@@ -61,7 +62,7 @@
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="24dp"
         android:layout_marginRight="24dp"
-        android:background="@android:color/holo_blue_bright"
+        android:background="#FF0C948F"
         android:text="BACK"
         android:textColorLink="@android:color/holo_blue_bright" />
 

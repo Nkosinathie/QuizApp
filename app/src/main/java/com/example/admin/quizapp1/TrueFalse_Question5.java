@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import static com.example.admin.quizapp1.MainActivity.score;
+
 public class TrueFalse_Question5 extends AppCompatActivity {
 
     @Override
@@ -16,7 +18,7 @@ public class TrueFalse_Question5 extends AppCompatActivity {
 
     public void OnClicktrues(View view) {
 
-        Intent i = new Intent (TrueFalse_Question5.this,MainActivity.class);
+        Intent i = new Intent (TrueFalse_Question5.this,Score_Activity.class);
         startActivity(i);
 
 
@@ -24,7 +26,10 @@ public class TrueFalse_Question5 extends AppCompatActivity {
     }
     public void OnClickfalses(View view) {
 
-        Intent i = new Intent (TrueFalse_Question5.this,MainActivity.class);
+        Intent i = new Intent (TrueFalse_Question5.this,Score_Activity.class);
+
+
+        MainActivity.score = MainActivity.score +1;
         startActivity(i);
 
     }
@@ -43,10 +48,10 @@ public class TrueFalse_Question5 extends AppCompatActivity {
     }
     public void  next(View view)
     {
-        Intent intent = new Intent(TrueFalse_Question5.this,MainActivity.class);
+        Intent intent = new Intent(TrueFalse_Question5.this,Score_Activity.class);
     }
     public void onClicknxt(View view) {
-        Intent intent = new Intent(TrueFalse_Question5.this, MainActivity.class);
+        Intent intent = new Intent(TrueFalse_Question5.this, Score_Activity.class);
         startActivity(intent);
     }
 

@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import static com.example.admin.quizapp1.MainActivity.score;
+
 public class Multiple_Question4 extends AppCompatActivity {
 
     @Override
@@ -30,6 +32,12 @@ public class Multiple_Question4 extends AppCompatActivity {
 
         Intent i = new Intent (Multiple_Question4.this,Multiple_Question5.class);
         startActivity(i);
+
+
+        score = score +1;
+        i.putExtra("score", score);
+        startActivity(i);
+
 
     }
     public void back(View view)

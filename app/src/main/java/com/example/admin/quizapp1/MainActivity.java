@@ -7,6 +7,9 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static int score;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void OnClicktf(View view) {
 
-        Intent i = new Intent(this, True_False_Question1.class);
+        Intent i = new Intent(this, True_False_Question1
+
+                .class);
         startActivity(i);
     }
 

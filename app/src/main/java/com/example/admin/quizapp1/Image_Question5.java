@@ -15,30 +15,33 @@ public class Image_Question5 extends AppCompatActivity {
 
     public void OnClickapp(View view) {
 
-        Intent i = new Intent (Image_Question5.this,MainActivity.class);
+        Intent i = new Intent (Image_Question5.this,Score_Activity.class);
+        startActivity(i);
+
+        MainActivity.score = MainActivity.score +1;
         startActivity(i);
 
 
     }
     public void OnClickgoog(View view) {
 
-        Intent i = new Intent (Image_Question5.this,MainActivity.class);
+        Intent i = new Intent (Image_Question5.this,Score_Activity.class);
         startActivity(i);
 
     }
     public void OnClickwindo(View view) {
 
-        Intent i = new Intent (Image_Question5.this,MainActivity.class);
+        Intent i = new Intent (Image_Question5.this,Score_Activity.class);
         startActivity(i);
 
     }
     public void  next(View view)
     {
-        Intent intent = new Intent(Image_Question5.this,MainActivity.class);
+        Intent intent = new Intent(Image_Question5.this,Score_Activity.class);
 
     }
     public void onClicknxt(View view) {
-        Intent intent = new Intent(Image_Question5.this, MainActivity.class);
+        Intent intent = new Intent(Image_Question5.this, Score_Activity.class);
         startActivity(intent);
     }
 

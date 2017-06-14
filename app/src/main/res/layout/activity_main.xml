@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFB3ABB9"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.admin.quizapp1.MainActivity">
@@ -9,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:layout_weight="0.5"
         android:orientation="vertical">
         <TextView
@@ -27,7 +29,7 @@
             android:onClick="OnClickmtp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:background="@android:color/holo_blue_bright"
+            android:background="#FFC1F5A4"
             android:text="MULTIPLE CHOICE" />
         <Button
             android:id="@+id/true_false"
@@ -37,7 +39,7 @@
             android:onClick="OnClicktf"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:background="@android:color/holo_blue_bright"
+            android:background="#FF00DED6"
             android:text="TRUE OR FALSE" />
 
         <Button
@@ -48,11 +50,8 @@
             android:onClick="OnClickqz"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:background="@android:color/holo_blue_bright"
+            android:background="#FF9006EC"
             android:text="LOGO QUIZ" />
-
-
-
 
 
 

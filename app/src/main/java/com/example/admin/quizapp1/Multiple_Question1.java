@@ -26,6 +26,9 @@ public class Multiple_Question1 extends AppCompatActivity {
         Intent i = new Intent (Multiple_Question1.this,Multiple_Question2.class);
         startActivity(i);
 
+        MainActivity.score = MainActivity.score +1;
+        startActivity(i);
+
     }
     public void OnClickity(View view) {
 

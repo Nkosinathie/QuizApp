@@ -25,6 +25,9 @@ public class TrueFalse_Question2 extends AppCompatActivity {
         Intent i = new Intent (TrueFalse_Question2.this,TrueFalse_Question3.class);
         startActivity(i);
 
+        MainActivity.score = MainActivity.score +1;
+        startActivity(i);
+
     }
 
 

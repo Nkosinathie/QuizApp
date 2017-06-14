@@ -18,6 +18,9 @@ public class Image_Question2 extends AppCompatActivity {
         Intent i = new Intent (Image_Question2.this,Image_Question3.class);
         startActivity(i);
 
+        MainActivity.score = MainActivity.score +1;
+        startActivity(i);
+
     }
     public void OnClickmxt(View view) {
 

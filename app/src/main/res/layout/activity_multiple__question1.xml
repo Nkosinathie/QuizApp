@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFA5B3A7"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.admin.quizapp1.Multiple_Question1">
@@ -36,7 +37,7 @@
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:background="@android:color/holo_blue_bright"
+            android:background="#FF52870C"
             android:text="MEXICO"
             android:textColorLink="@android:color/holo_blue_bright" />
         <Button
@@ -47,7 +48,7 @@
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:background="@android:color/holo_blue_bright"
+            android:background="#FF52870C"
             android:text="SWEDEN"
             android:textColorLink="@android:color/holo_blue_bright" />
         <Button
@@ -58,7 +59,7 @@
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:background="@android:color/holo_blue_bright"
+            android:background="#FF52870C"
             android:text="ITALY"
             android:textColorLink="@android:color/holo_blue_bright" />
         <Button
@@ -69,7 +70,7 @@
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="24dp"
             android:layout_marginRight="24dp"
-            android:background="@android:color/holo_blue_bright"
+            android:background="#FF52870C"
             android:text="BACK"
             android:textColorLink="@android:color/holo_blue_bright" />
 

@@ -17,6 +17,9 @@ public class Image_Question1 extends AppCompatActivity {
         Intent i = new Intent (Image_Question1.this,Image_Question2.class);
         startActivity(i);
 
+        MainActivity.score = MainActivity.score +1;
+        startActivity(i);
+
 
     }
     public void OnClickdma(View view) {
